@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Web</title>
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Formulario Web</h1>
+
+    </header>
+    
+    <form>
+
+        
+        <fieldset>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            
+            <div class="row2cols">
+                <label for="documento">Documento de Identificacion</label>
+                <input type="text"
+                        id=documento
+                        name=documento
+                        placeholder="Ingrese No. DPI">
+            </div>
+            <div class="row2cols">
+                <label for="nombre">Nombre</label>
+                <input type="text"
+                        id=nombre
+                        name=nombre
+                        placeholder="Nombre completo">
+            </div>
+            <div class="row2cols">
+                <label for="direccion">Dirección</label>
+                <input type="text"
+                        id=direccion
+                        name=direccion
+                        placeholder="Direccion de Residencia">
+            </div>
+            <div class="row2cols">
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option value="">Guatemala</option>
+                    <option value="">El Salvador</option>
+                    <option value="">Honduras</option>
+                    <option value="">Nicaragua</option>
+                    <option value="">Costa Rica</option>
+                    <option value="">Panamá</option>
+                </select>
+
+            </div>
+            <div class="row2cols">
+                <label for="email">Email</label>
+                <input type="email"
+                        id=email
+                        name=email
+                        placeholder="Ingrese correo valido">
+            </div>
+            <div class="row2cols">
+                <label for="observaciones">Observaciones</label>
+                <textarea name="observaciones" 
+                            id="observaciones" 
+                            cols="30" 
+                            rows="10" 
+                            required minlength="20"
+                            placeholder="Ingrese como minimo 30 caracteres"> </textarea>
+            </div>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Datos Laborales</legend>
+            <div class="row2cols">
+                <label for="empresa">Empresa</label>
+                <input type="text"
+                        id=empresa
+                        name=empresa
+                        placeholder="Nombre de Empresa">
+            </div>
+            <div class="row2cols">
+                <label for="sueldo">Sueldo Diario</label>
+                <input type="number"
+                        id=sueldo
+                        name=sueldo
+                        placeholder="Ingrese sueldo diario">
+            </div>
+            <div class="row2cols">
+                <label for="bonificacion">Bonificación</label>
+                <input type="number"
+                        id=bonificacion
+                        name=bonificacion
+                        placeholder="Ingrese su bonificacion">
+            </div>
+            <div class="row2cols">
+                <label for="OtrasBonificaciones">Otras Bonificaciones</label>
+                <input type="number"
+                        id=OtrasBonificaciones
+                        name=OtrasBonificaciones
+                        placeholder="Ingrese otras bonificaciones obtenidas">
+            </div>
+
+
+        </fieldset>
+            <div class="row2cols">
+
+                 <div >
+
+                 </div>
+                <div">
+                    
+                     <input type="submit" value="Guardar">
+                 </div>
+            </div>
+           
+               
+            
+            
+
+         </fieldset>
+        
+
+    </form>
+</body>
+
+</html>

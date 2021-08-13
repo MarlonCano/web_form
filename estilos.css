@@ -1,0 +1,53 @@
+.row2cols{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.row2cols2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+
+.row2cols label{
+    background-color:black;
+    color: cornsilk;
+    padding: 5px;
+    text-align: right;
+}
+input[type="submit"]{
+    background-color: cyan;
+    color: darkblue;
+    font-size: 20px;
+    padding: 15px;
+    text-align:auto;
+}
+@media screen and (max-width:600px){
+    .row2cols{
+
+    grid-template-columns: 1;
+}
+}
+header{
+    color: black;
+    text-align: center;
+}
+input[type="text"], input[type="number"], input[type="email"],textarea{
+    background-color:white;
+    color: black;
+
+}
+fieldset{
+    background-color:lightblue;
+}
+legend{
+    text-align: center;
+    color: black;
+    
+}
+option{
+    color: black;
+}
+form{
+    margin: auto;
+    width: 600px;
+}
